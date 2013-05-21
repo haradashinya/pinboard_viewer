@@ -55,6 +55,9 @@ a {
     }
 
   }
+  .box_shadow {
+    margin-top: 1em;
+  }
 }
 
 #tag_list li {
@@ -63,14 +66,17 @@ a {
 }
 #tag_list {
   height: 3em;
-
   // padding-top: 1em;
 }
-.ii {
-  background: red;
-  margin-bottom: 1em;
-  width: 98%;
+
+@media (max-width: 640px){
+  body {
+    background: red;
+  }
 }
+
+
+
 .page_body {
   background: #ecf0f1;
 }

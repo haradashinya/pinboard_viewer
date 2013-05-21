@@ -33,7 +33,10 @@ a {
       width: 33%;
       line-height: 1em; }
     .menu li.last {
-      width: 34%; } }
+      width: 34%; }
+
+  .box_shadow {
+    margin-top: 1em; } }
 #tag_list li {
   float: left;
   list-style-type: none; }
@@ -41,11 +44,9 @@ a {
 #tag_list {
   height: 3em; }
 
-.ii {
-  background: red;
-  margin-bottom: 1em;
-  width: 98%; }
-
+@media (max-width: 640px) {
+  body {
+    background: red; } }
 .page_body {
   background: #ecf0f1; }
 
