@@ -20,8 +20,7 @@ a {
     border-right: 1px solid #a3b6bb;
     margin-right: -1em; }
   .menu li.first {
-    margin-left: -1em;
-    border-left: 0.3em solid #e74c3c; }
+    margin-left: -1em; }
   .menu li.last {
     border-left: none; }
   .menu li a {
