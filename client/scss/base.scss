@@ -45,9 +45,15 @@ a {
 }
 @media (max-width: 640px){
   .menu {
+    margin-left: 1em;
     li {
       width: 33%;
+      line-height: 1em;
     }
+    li.last {
+      width: 34%;
+    }
+
   }
 }
 

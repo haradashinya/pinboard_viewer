@@ -27,8 +27,13 @@ a {
     display: block; }
 
 @media (max-width: 640px) {
-  .menu li {
-    width: 33%; } }
+  .menu {
+    margin-left: 1em; }
+    .menu li {
+      width: 33%;
+      line-height: 1em; }
+    .menu li.last {
+      width: 34%; } }
 #tag_list li {
   float: left;
   list-style-type: none; }
