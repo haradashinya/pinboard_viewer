@@ -85,7 +85,7 @@
                   <ul id="tag_list" class="clearfix">
                     <!-- if $scope.tags changed , then render something. -->
                     <li ng-repeat="tag in tags">
-                      <a href="{{tag.name}}">{{tag.name}} ({{tag.count}})</a>
+                      <a ng-click="find(tag.name)" >{{tag.name}} ({{tag.count}})</a>
                     </li>
                   </ul>
                 </div>

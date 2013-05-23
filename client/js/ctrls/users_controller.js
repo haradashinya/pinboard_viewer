@@ -18,6 +18,9 @@ function UserCtrl($scope,$http){
       });
   };
 
+  $scope.find = function(t){
+    console.log(t);
+  };
 
 
   $scope.search = function(){
